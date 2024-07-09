@@ -1,0 +1,87 @@
+body{
+    height: 100vh;
+    background: url(images/cart.jpg)no-repeat center center/cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#add-task-container{
+    width: 350px;
+    padding: 20px 10px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 3px;
+    display: flex;
+}
+
+input{
+    flex: 5;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+#add-task{
+    font-size: 1.2rem;
+    padding: 5px;
+    flex: 1;
+    background-color: #fff;
+    color: green;
+    border: green solid 2px;
+    border-radius: 10px;
+}
+
+#add-task:hover{
+    background-color: green;
+    color: #fff;
+}
+
+.task{
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 3px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task li{
+    font-size: 1.3rem;
+    flex: 1;
+    padding: 5px;
+    margin: 10px;
+    list-style: none;
+}
+
+.task button{
+    flex: 1;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.task .checkTask{
+    color: orange;
+    margin-right: 5px;
+    border: solid 2px orange;
+    font-size: 1.5rem;
+}
+
+.task .deleteTask{
+    color: red;
+    border: solid 2px red;
+}
+
+.task .checkTask:hover{
+    background-color: orange;
+    color: #fff;
+}
+
+.task .deleteTask:hover{
+    background-color: red;
+    color: #fff;
+}
